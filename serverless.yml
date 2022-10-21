@@ -1,0 +1,13 @@
+org: nqduy1984
+app: test-2
+service: test-2
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  hello:
+    handler: handler.hello
